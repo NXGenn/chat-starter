@@ -1,0 +1,127 @@
+.detail{
+    
+    
+    
+.user{
+    padding: 0.7rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    border-bottom: 1px solid #dddddd35;
+    p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+
+    img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+  .info{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    
+
+
+    .option{
+
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+            img{
+                width: 30px;
+                height: 30px;
+                background-color: rgba(17, 25, 40, 0.3); 
+                padding: 10px;
+                border-radius: 50%;
+                align-items: flex-end;
+                cursor: pointer;
+             }
+        }
+
+        .photos{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 1.3rem;
+
+            .photoItem{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                
+
+                .photoDetails{
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    img{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 0.4rem;
+                        object-fit: cover;
+                    }
+
+                    span{
+                        font-size: 14px;
+                        font-weight: 300;
+                        color: #777777;
+                    }
+                }
+
+                .icons{
+                   width: 30px;
+                   height: 30px;
+                   border-radius: 50%;
+                   background-color: rgba(17, 25, 40, 0.3);
+                   padding: 10px;
+                   cursor: pointer;
+                   gap: 1.8rem;
+                }
+            }
+
+            
+        }
+    }
+    button{
+        padding: 0.45rem;
+        background-color: rgba(230, 74, 105, 0.553);
+        color: white;
+        border: none;
+        border-radius: 0.4rem;
+        cursor: pointer;
+        
+
+        &:hover{
+            background-color: rgba(220, 20, 60, 0.796);
+        }
+        &.logout{
+            padding: 0.4rem;
+            background-color: #1a73e88e;
+            gap: 0.2rem;
+
+        &:hover{
+            padding: 0.4rem;
+            background-color: #003cff;
+            gap: 0.2em;
+        }
+        }
+    }
+    
+  }
+
+}
